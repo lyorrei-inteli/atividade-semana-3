@@ -1,0 +1,35 @@
+[0.300s] Invoking command in '/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/src/my_turtle_controller': PYTHONPATH=/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/prefix_override:/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_turtle_controller build --build-base /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build install --record /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/install.log --single-version-externally-managed
+[0.405s] running egg_info
+[0.405s] creating ../../build/my_turtle_controller/my_turtle_controller.egg-info
+[0.405s] writing ../../build/my_turtle_controller/my_turtle_controller.egg-info/PKG-INFO
+[0.405s] writing dependency_links to ../../build/my_turtle_controller/my_turtle_controller.egg-info/dependency_links.txt
+[0.406s] writing entry points to ../../build/my_turtle_controller/my_turtle_controller.egg-info/entry_points.txt
+[0.406s] writing requirements to ../../build/my_turtle_controller/my_turtle_controller.egg-info/requires.txt
+[0.406s] writing top-level names to ../../build/my_turtle_controller/my_turtle_controller.egg-info/top_level.txt
+[0.406s] writing manifest file '../../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[0.407s] reading manifest file '../../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[0.407s] writing manifest file '../../build/my_turtle_controller/my_turtle_controller.egg-info/SOURCES.txt'
+[0.407s] running build
+[0.408s] running build_py
+[0.408s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build
+[0.408s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build/lib
+[0.408s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build/lib/my_turtle_controller
+[0.408s] copying my_turtle_controller/__init__.py -> /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build/lib/my_turtle_controller
+[0.408s] running install
+[0.409s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.409s]   warnings.warn(
+[0.409s] running install_lib
+[0.410s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages/my_turtle_controller
+[0.410s] copying /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build/lib/my_turtle_controller/__init__.py -> /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages/my_turtle_controller
+[0.410s] byte-compiling /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages/my_turtle_controller/__init__.py to __init__.cpython-310.pyc
+[0.410s] running install_data
+[0.410s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/share/ament_index
+[0.412s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/share/ament_index/resource_index
+[0.412s] creating /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/share/ament_index/resource_index/packages
+[0.412s] copying resource/my_turtle_controller -> /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/share/ament_index/resource_index/packages
+[0.412s] copying package.xml -> /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/share/my_turtle_controller
+[0.412s] running install_egg_info
+[0.412s] Copying ../../build/my_turtle_controller/my_turtle_controller.egg-info to /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages/my_turtle_controller-0.0.0-py3.10.egg-info
+[0.412s] running install_scripts
+[0.424s] writing list of installed files to '/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/install.log'
+[0.436s] Invoked command in '/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/src/my_turtle_controller' returned '0': PYTHONPATH=/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/prefix_override:/home/lyo/Documents/projects/atividade-semana-3/ros2_ws/install/my_turtle_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_turtle_controller build --build-base /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/build install --record /home/lyo/Documents/projects/atividade-semana-3/ros2_ws/build/my_turtle_controller/install.log --single-version-externally-managed
