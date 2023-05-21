@@ -1,7 +1,8 @@
-# Documentação
-Este é um código Python que usa a biblioteca ROS (Robot Operating System) para criar, controlar e mover tartarugas virtuais no ambiente Turtlesim. Nesse projeto, mostro como controlar a movimentacao da tartaruga do Turtlesim por meio de publicacoes nos topicos do ROS.
+# Documentação (fiz com Turtlesim por não ter conseguido instalar o ambiente de simulação no meu Mac)
 
-O código começa importando as bibliotecas necessárias: rclpy, que é a biblioteca principal do ROS para Python; Node da biblioteca rclpy.node; Twist da biblioteca geometry_msgs.msg; time da biblioteca padrão Python; SetPen, TeleportAbsolute e Kill da biblioteca turtlesim.srv.
+No projeto, mostro como controlar a movimentação da tartaruga do Turtlesim por meio de publicações nos tópicos do ROS. Fiz o desenho de labirinto, mostrando que tenho total controle sobre a movimentação da tartaruga.
+
+Este é um código Python que usa a biblioteca ROS (Robot Operating System) para criar, controlar e mover tartarugas virtuais no ambiente Turtlesim. O código começa importando as bibliotecas necessárias: rclpy, que é a biblioteca principal do ROS para Python; Node da biblioteca rclpy.node; Twist da biblioteca geometry_msgs.msg; time da biblioteca padrão Python; SetPen, TeleportAbsolute e Kill da biblioteca turtlesim.srv.
 
 Em seguida, é definida a classe TurtleController que herda de Node. O construtor da classe recebe um parâmetro turtleName, que é o nome da tartaruga, e salva este nome em uma variável self.turtleName.
 
@@ -12,8 +13,7 @@ O método move_turtle recebe seis parâmetros opcionais: x, y e z representam a 
 O método pen_color define a cor da caneta da tartaruga virtual usando o serviço SetPen. Ele recebe dois parâmetros: rgb, que representa a cor da caneta em formato RGB (uma lista com três valores inteiros entre 0 e 255); e width, que representa a largura da caneta em pixels. O método cria um objeto do tipo SetPen.Request e preenche seus campos com os valores recebidos como parâmetro. Depois, o método chama o serviço SetPen com esta mensagem.
 O método delete_turtle deleta a tartaruga virtual do ambiente Turtlesim, usando o serviço Kill. Ele não recebe parâmetros.
 
-O método main inicia o ROS usando o método rclpy.init(), cria diversas tartarugas virtuais com diferentes cores e movimentos, e depois desliga o ROS usando o método rclpy.shutdown().
+O método main inicia o ROS usando o método rclpy.init(), cria uma tartaruga que realiza as pinturas, e depois desliga o ROS usando o método rclpy.shutdown().
 
 Link para o vídeo do projeto funcionando:
-https://youtu.be/JpggtT1SmYc
-
+https://youtu.be/u-LGBtRo7Fo
