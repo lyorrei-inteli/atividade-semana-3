@@ -2,6 +2,8 @@
 
 No projeto, mostro como controlar a movimentação da tartaruga do Turtlesim por meio de publicações nos tópicos do ROS. Fiz o desenho de labirinto, mostrando que tenho total controle sobre a movimentação da tartaruga.
 
+Primeiramente, criei um ros2 workspace organizar melhor o ambiente de desenvolvimento. Depois criei uma package que movimenta a tartaruga. Nos próximos parágrafos está uma explicação mais detalhada do arquivo /ros2_ws/src/my_turtle_controller/my_turtle_controller/ros.py.
+
 Este é um código Python que usa a biblioteca ROS (Robot Operating System) para criar, controlar e mover tartarugas virtuais no ambiente Turtlesim. O código começa importando as bibliotecas necessárias: rclpy, que é a biblioteca principal do ROS para Python; Node da biblioteca rclpy.node; Twist da biblioteca geometry_msgs.msg; time da biblioteca padrão Python; SetPen, TeleportAbsolute e Kill da biblioteca turtlesim.srv.
 
 Em seguida, é definida a classe TurtleController que herda de Node. O construtor da classe recebe um parâmetro turtleName, que é o nome da tartaruga, e salva este nome em uma variável self.turtleName.
